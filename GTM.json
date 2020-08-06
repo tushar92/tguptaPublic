@@ -1,0 +1,228 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2020-08-06 12:31:57",
+    "containerVersion": {
+        "path": "accounts/3850832315/containers/32109203/versions/0",
+        "accountId": "3850832315",
+        "containerId": "32109203",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/3850832315/containers/32109203",
+            "accountId": "3850832315",
+            "containerId": "32109203",
+            "name": "AMPDemo",
+            "publicId": "GTM-KL7VXWF",
+            "usageContext": [
+                "AMP"
+            ],
+            "fingerprint": "1596530886371",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3850832315/containers/32109203/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "tagId": "3",
+                "name": "AMP Pageview Tag",
+                "type": "ua_amp",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-1231232-21"
+                    }
+                ],
+                "fingerprint": "1596531266338",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "tagId": "7",
+                "name": "AMP GA Event tag",
+                "type": "ua_amp",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "nonInteraction",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventCategory",
+                        "value": "Sample AMP Implementation"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_EVENT"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "customDimensions",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{AMP - BlogName}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventAction",
+                        "value": "Click Test GA event"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventLabel",
+                        "value": "Event Sent via Preview Mode"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-2342342-32"
+                    }
+                ],
+                "fingerprint": "1596681083804",
+                "firingTriggerId": [
+                    "6"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "tagId": "9",
+                "name": "linker",
+                "type": "gclidw_amp",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "autoLinkDomains",
+                        "value": "tgupta.net"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "linkGaClientId",
+                        "value": "true"
+                    }
+                ],
+                "fingerprint": "1596712028695",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT"
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "triggerId": "6",
+                "name": "ButtonTrigger",
+                "type": "AMP_CLICK",
+                "fingerprint": "1596679374133",
+                "selector": {
+                    "type": "TEMPLATE",
+                    "value": "#sampleButton"
+                }
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "variableId": "5",
+                "name": "AMP - BlogName",
+                "type": "ampv",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "blogName"
+                    }
+                ],
+                "fingerprint": "1596679184397"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "variableId": "8",
+                "name": "AMP - FirstName",
+                "type": "ampv",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "name.firstname"
+                    }
+                ],
+                "fingerprint": "1596696233988"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "AMP_BROWSER_LANGUAGE",
+                "name": "Browser Language"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "AMP_REFERRER",
+                "name": "Document Referrer"
+            },
+            {
+                "accountId": "3850832315",
+                "containerId": "32109203",
+                "type": "AMP_CLIENT_ID",
+                "name": "Page Client ID"
+            }
+        ],
+        "fingerprint": "1596717117134",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3850832315/containers/32109203/versions/0?apiLink=version"
+    }
+}
